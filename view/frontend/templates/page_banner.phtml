@@ -1,0 +1,14 @@
+<div class="cms_banner">
+	<div class="banner-image">
+		<?php if ($block->getPageBanner() != null): ?>
+			<img src="<?= $block->getPageBanner() ?>">
+		<?php endif ?>
+	</div>
+</div>
+<?php if (!empty($block->getPageBanner())): ?>
+	<script>
+		require(['jquery'], function($){
+			$('body').addClass('has-banner');
+		});
+	</script>
+<?php endif ?>
