@@ -17,7 +17,7 @@ Features
 Installation
 --------
 
-### ✓ Install via composer (recommend)
+### ✓ Install via composer
 Run the following command in Magento 2 root folder:
 
 ```
